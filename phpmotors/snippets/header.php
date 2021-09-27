@@ -17,7 +17,7 @@
                         <img src="images/site/logo.png" alt="logo php motors">
                     </div>
                     <div class="p-3">
-                        <a href="/" title="my account" class="txt-decoration-none txt-gris-mas-fuerte">My Account</a>
+                        <a href="#" title="my account" class="txt-decoration-none txt-gris-mas-fuerte">My Account</a>
                     </div>
                 </div>
             </div>
