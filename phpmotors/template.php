@@ -1,6 +1,6 @@
 <?php
-    $ruta = $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/';
-    $pages = $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/';
+    $ruta = $_SERVER['DOCUMENT_ROOT'] . '/CSE-340-II/phpmotors/snippets/';
+    $pages = $_SERVER['DOCUMENT_ROOT'] . '/CSE-340-II/phpmotors/';
 ?>
     <?php require $ruta . 'header.php'; ?>
 

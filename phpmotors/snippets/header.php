@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Content Title | PHP Motors</title>
     <!-- <link rel="stylesheet" href="<?php //echo $pages . 'css/style.css';?>"> -->
-    <link rel="stylesheet" href="/CSE-340-I/phpmotors/css/style.css">
+    <link rel="stylesheet" href="/phpmotors/css/style.css">
     </head>
     <body>
     <div class="container bg-blanco mx-auto my-3 border-zul">
