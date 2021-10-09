@@ -1,9 +1,9 @@
 <?php
     function createConnection(){
         $server = 'localhost';
-        $dbname= 'phpmotors-i-cse340';
+        $dbname= 'phpmotors';
         $username = 'iClient';
-        $password = 'laX2yyY6ihN16MZ5';
+        $password = '2*Y(/py[xi-4UfEM';
         $dsn = 'mysql:host='.$server.';dbname='.$dbname;
         $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
         // Create the actual connection object and assign it to a variable
@@ -12,7 +12,7 @@
         
          /*if(is_object($link)){
             echo 'chevere pelado lo hiciste bien';
-         }*/ return $link;
+         } //*/ return $link;
         } catch(PDOException $e) {
         // echo 'Sorry, the connection failed';
         header('Location: /phpmotors/view/500.php');

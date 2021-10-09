@@ -23,6 +23,6 @@
             </div>
             </header>
                     <nav>
-                        <?php require $ruta . 'navigation.php'; ?>
+                    <?php echo $navList; ?><?php //require $ruta . 'navigation.php'; ?>
                     </nav>
                     <main class="p-2">

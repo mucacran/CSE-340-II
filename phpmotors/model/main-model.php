@@ -1,4 +1,4 @@
-<?
+<?php
 //Main PHP Motors Model  - Modelo principal de motores PHP
 /*
 a new function to get the classification information from the carclassification
@@ -6,10 +6,13 @@ table in the phpmotors database.
 */
 function getClassifications(){
  // Create a connection object from the phpmotors connection function
+ 
  $db = createConnection(); 
+
  // The SQL statement to be used with the database 
- $sql = 'SELECT classificationName FROM carclassification ORDER BY classificationName ASC'; 
- // The next line creates the prepared statement using the phpmotors connection      
+ $sql = 'SELECT classificationName FROM carclassification ORDER BY classificationName ASC';
+
+ // The next line creates the prepared statement using the phpmotors connection
  $stmt = $db->prepare($sql);
  // The next line runs the prepared statement 
  $stmt->execute(); 
