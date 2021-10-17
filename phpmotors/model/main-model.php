@@ -18,7 +18,10 @@ function getClassifications(){
  $stmt->execute(); 
  // The next line gets the data from the database and 
  // stores it as an array in the $classifications variable 
- $classifications = $stmt->fetchAll(); 
+ $classifications = $stmt->fetchAll();
+
+//echo '<pre>' . print_r( $classifications,true) . '<pre>'; exit;
+
  // The next line closes the interaction with the database 
  $stmt->closeCursor(); 
  // The next line sends the array of data back to where the function 

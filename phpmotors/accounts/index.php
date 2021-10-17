@@ -1,13 +1,13 @@
 <?php
 // Get the database connection file
- require_once 'library/connections.php';
+ require_once '../library/connections.php';
  // Get the PHP Motors model for use as needed
- require_once 'model/main-model.php';
+ require_once '../model/main-model.php';
 
  // Get the array of classifications
  $classifications = getClassifications();
 
- /*var_dump($classifications); // o tambien se puede usar print_r(variable,true);
+ /*var_dump($classifications);
 	exit;*/
 
 // Build a navigation bar using the $classifications array
@@ -24,15 +24,11 @@ $action = filter_input(INPUT_POST, 'action');
  }
 
  switch ($action){
-	case 'template':
-		include 'view/template.php';
+	case 'loginHome':
+		include '../view/login.php';
 	 break;
 	
-	case 'error':
-		include 'view/500.php';
-	break;
-	
-	default:
-	 include 'view/home.php';
-	 break;
+	 case 'registerHome':
+		include '../view/register.php';
+		break;
    }
